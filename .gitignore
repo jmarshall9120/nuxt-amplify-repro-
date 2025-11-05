@@ -1,0 +1,26 @@
+# Nuxt
+.nuxt
+.output
+dist
+
+# Dependencies
+node_modules
+
+# Amplify
+amplify/backend/amplify-meta.json
+amplify/backend/.temp
+amplify/#current-cloud-backend
+amplify/mock-data
+amplify/mock-api-resources
+amplify/backend/awscloudformation
+amplify/cli.json
+amplify/team-provider-info.json
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+.amplify-hosting

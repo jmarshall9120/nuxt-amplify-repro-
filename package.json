@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-amplify-repro",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.17.0",
+    "@aws-amplify/backend-cli": "^1.8.0",
+    "@nuxt/eslint": "^1.9.0",
+    "aws-cdk-lib": "^2.189.1",
+    "constructs": "^10.0.0",
+    "nuxt": "^4.0.3",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "vue": "^3.5.20"
+  }
+}
