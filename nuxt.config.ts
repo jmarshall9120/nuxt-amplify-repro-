@@ -11,8 +11,20 @@ export default defineNuxtConfig({
     },
     routeRules: {
       "/api/**": { cors: true },
-      "/static-test/": { prerender: true },
+      "/static-test": { prerender: true },
     },
+  },
+  experimental: {
+    defaults: {
+      nuxtLink: {
+        trailingSlash: "append"
+      }
+    }
+  },
+  router: {
+    options: {
+      strict: true
+    }
   },
   css: ["vuetify/styles", "@mdi/font/css/materialdesignicons.css"],
   build: {
